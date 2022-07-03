@@ -1,0 +1,96 @@
+/* CSS -> Cascading StyleSheet (Folha de estilo em cascata)*/
+
+/* Anatomia de um regra CSS
+
+seletor {
+    propriedade: valor da propriedade; => Declaração CSS
+    color de fundo: vermelho; => Declaração CSS 
+} => Regra CSS
+
+*/
+
+/* TIPOS DE SELETORES */ 
+
+/* 1 - Seletor por nome de tag/nome de elemento */
+
+body {
+    background-color: rgba(255, 174, 0, 0.411);
+}
+
+h1 {
+    color: rgb(139, 12, 23);
+}
+
+/* 2 - Seletor por classe */
+
+section {
+    background-color: rgb(127, 194, 124);
+}
+
+.sobreMim {
+    background-color: rgba(0, 255, 242, 0.568);
+}
+
+
+/* 3 - Seletor por ID */
+
+#listaAfazeres {
+    background-color: #fff;
+}
+
+
+/* font:
+    font-size => Tamanho da fonte
+    font-family => Família da fonte
+*/
+
+h1 { 
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Dimensionamento: Tamanho e altura */
+
+.sobreMim {
+    width: 250px;
+    height: 100px;
+}
+
+/* Posicionamento */
+
+a {
+    background-color: red;
+}
+
+section {
+    display: inline-block;
+}
+
+
+/* FlexBox */
+
+.exemploFlexbox {
+    display: flex;
+    height: 400px;
+    background-color: silver;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.exemploFlexbox div{
+    width: 200px;
+    height: 200px;
+}
+
+.exemplo1 {
+    background-color: aqua;
+}
+
+.exemplo2 {
+    background-color: yellow;
+}
+
+.exemplo3 {
+    background-color: beige;
+}
